@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <%- include('partials/header') %>
+    <title>FORMIK | Login</title>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <%- include('partials/navbar') %>
+    
+    
+    <div class="container">
+        <h1>Login Form</h1>
+
+        <form action="/login" method="POST">
+            <input type="email" placeholder="email" name="email" id="email">
+            <input type="password" name="password" id="password" placeholder="password">
+
+            <div class="button">
+                <input type="submit" value="Login"></input>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

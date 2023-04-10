@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <%- include('partials/header') %>
+    <title>FORMIK | Register </title>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <%- include('partials/navbar') %>
+    
+
+    <div class="container">
+        <h1>Register Form</h1>
+
+        <form action="/register" method="POST">
+            <input type="text" placeholder="first name" name="firstname" id="firstname" required>
+            <input type="text" placeholder="last name" name="lastname" id="lastname" required>
+            <input type="number" placeholder="phone number" name="number" id="number" required>
+            <input type="email" placeholder="email" name="email" id="email" required>
+            <div class="">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div class="">
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <input type="password" name="password" id="password" placeholder="password" required>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirmPassword">
+
+            <div class="button">
+                <input type="submit" value="Register"></input>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

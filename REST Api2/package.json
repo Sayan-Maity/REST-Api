@@ -1,0 +1,22 @@
+{
+  "name": "crud-practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sayan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.3",
+    "mongoose-validator": "^2.1.0",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
