@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ h1{
+  margin: 2rem 0;
+}
+.container input{
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #575757;
+  
+}
+.container button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgb(168, 255, 128);
+  outline: none;
+  border: 1px solid #7f7f7f;
+  border-radius: 5px;
+
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.list li {
+  background-color: #e3e3e3;
+  width: 18rem;
+  padding: 0.5rem 1rem;
+  list-style: none;
+  margin: 1rem 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.list li .icon-holder {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.list li .icon-holder .edit,
+.list li .icon-holder .delete {
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+}
+.list li .icon-holder .edit:hover {
+  background-color: rgba(0, 175, 239, 0.856);
+}
+.list li .icon-holder .delete:hover {
+  background-color: rgb(255, 81, 81);
+}
