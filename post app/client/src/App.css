@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+h1 {
+  margin: 2rem 0;
+  text-decoration: underline;
+}
+.user-detail {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.user-detail h4 {
+  border: 1px solid gray ;
+  padding: 0.4rem 1rem;
+}
+
+.post-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+  border: 1px solid #333;
+  width: fit-content;
+  padding: 2rem;
+}
+.post-user input {
+  padding: 0.4rem 1rem;
+  outline: none;
+  
+}
+.post-user button {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
