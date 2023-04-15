@@ -39,7 +39,7 @@ module.exports.postUser = async (req, res) => {
             username,
         }).save()
 
-        res.status(201).send(addUser)
+        res.status(201).json(addUser)
     }
     catch (err) {
         res.status(400).send("Error: ", err)
